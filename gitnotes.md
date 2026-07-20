@@ -34,5 +34,15 @@ vm@VCHOWDARY-MAC git-demo %
 
 
 
+mover between commits
+git checkout  id
+tempoarily move to other commit
+ex v1,v2,v3
+we can move to commit v2 to see the changes only in v2 ignoring v3
+
+to check the previous commits
+#git log
+
+
 
  
