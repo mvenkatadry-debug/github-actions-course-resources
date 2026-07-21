@@ -53,5 +53,7 @@ to reset particular comit
 to create new branch
 #git branch branchname
 
-
+to go to a particular branch
+#git branch branchname
+so #git branch - This will show the current branch with astreick
  
