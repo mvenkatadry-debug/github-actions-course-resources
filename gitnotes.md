@@ -57,4 +57,7 @@ to go to a particular branch
 #git branch branchname
 so #git branch - This will show the current branch with astreick
 #git checkout branchname - this will take you to the particulzar branch
+
+To delete the branch
+#git delete -D brnachname
  
