@@ -47,5 +47,11 @@ To undo the commits
 git revert idoXXX
 This will create a new version with the given commit data
 
+to reset particular comit
+#git reset --hard commitid
+
+to create new branch
+#git branch branchname
+
 
  
