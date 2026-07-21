@@ -60,4 +60,10 @@ so #git branch - This will show the current branch with astreick
 
 To delete the branch
 #git delete -D brnachname
- 
+ To create and switch to the branch
+ #git checkout -b newbranchname
+
+ To merge from feature-branch to main branch
+ #git checkout main
+ #git merge feature-branch
+ DO LAB TESTING FOR ANY CONFLICTS
