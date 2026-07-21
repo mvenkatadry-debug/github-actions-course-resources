@@ -71,4 +71,9 @@ To delete the branch
 
  #git clone repourl foldername
  it will clone the repository in the specifc directory
- 
+
+ vm@VCHOWDARY-MAC git-demo % git remote
+origin
+vm@VCHOWDARY-MAC git-demo % git remote get-url origin
+https://github.com/mvenkatadry-debug/git-demo.git
+vm@VCHOWDARY-MAC git-demo % 
