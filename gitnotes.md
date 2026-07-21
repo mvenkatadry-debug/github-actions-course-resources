@@ -67,3 +67,8 @@ To delete the branch
  #git checkout main
  #git merge feature-branch
  DO LAB TESTING FOR ANY CONFLICTS
+
+
+ #git clone repourl foldername
+ it will clone the repository in the specifc directory
+ 
