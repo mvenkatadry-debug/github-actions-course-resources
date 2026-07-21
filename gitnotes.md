@@ -44,5 +44,8 @@ to check the previous commits
 #git log
 
 
+git revert idoXXX
+This will create a new version with the given commit data
+
 
  
