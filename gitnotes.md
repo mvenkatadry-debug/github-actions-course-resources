@@ -43,7 +43,7 @@ we can move to commit v2 to see the changes only in v2 ignoring v3
 to check the previous commits
 #git log
 
-
+To undo the commits
 git revert idoXXX
 This will create a new version with the given commit data
 
