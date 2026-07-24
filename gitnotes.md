@@ -82,3 +82,5 @@ vm@VCHOWDARY-MAC git-demo %
 created rempoitory in GUI
 git remote add origin https://maxacademind1@github.com/maxacademind1/second-action-react-demo.git
 This is the github username maxacademind1
+
+git push -set-upstream origin main
