@@ -84,3 +84,7 @@ git remote add origin https://maxacademind1@github.com/maxacademind1/second-acti
 This is the github username maxacademind1
 
 git push -set-upstream origin main
+
+git remote add origin https://mvenkatadry-debug@github.com/mvenkatadry-debug/github-actions-course-resources.git
+git push -set-upstream origin main
+here ur seting the prigin and push what ever commits to main
