@@ -77,3 +77,8 @@ origin
 vm@VCHOWDARY-MAC git-demo % git remote get-url origin
 https://github.com/mvenkatadry-debug/git-demo.git
 vm@VCHOWDARY-MAC git-demo % 
+
+--
+created rempoitory in GUI
+git remote add origin https://maxacademind1@github.com/maxacademind1/second-action-react-demo.git
+This is the github username maxacademind1
