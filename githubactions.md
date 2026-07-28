@@ -23,4 +23,12 @@ GitHub Actions uses workflows (defined in YAML files under .github/workflows/) t
 
 
 
-
+i have created my first repo locally and also in github page
+mkdir firstrepo
+echo "# firstrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mvenkatadry-debug/firstrepo.git
+git push -u origin main
