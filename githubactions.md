@@ -63,3 +63,23 @@ You're just viewing an old snapshot of the repository.
 <img width="1596" height="882" alt="image" src="https://github.com/user-attachments/assets/7ab2e0bd-ba00-48c6-b538-bceefd6f8504" />
 
 
+git revert is the safe way to undo a commit.
+Unlike git checkout (temporary view) or git reset (moves a branch), git revert creates a new commit that reverses the changes of an earlier commit. It does not rewrite history. 
+
+
+
+vm@VCHOWDARY-MAC firstrepo % git log                                            
+commit dd92836e6b4cf95499e2d4069e350f2a81c749e1 (HEAD -> main, origin/main)
+Author: venkatadry <mullapudi67@gmail.com>
+Date:   Tue Jul 28 14:51:59 2026 -0600
+
+    Revert "added message"
+    
+    This reverts commit 6c29fad354bd775ce52d5883b808f9057d42e99c.
+
+commit 6c29fad354bd775ce52d5883b808f9057d42e99c
+Author: venkatadry <mullapudi67@gmail.com>
+Date:   Tue Jul 28 14:01:57 2026 -0600
+
+
+git revert 6c29fad354bd775ce52d5883b808f9057d42e99c ##so i moved to this commit where the file is only empty.so what ever commit u have to go  u have to give this
