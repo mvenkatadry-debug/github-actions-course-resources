@@ -95,3 +95,9 @@ git revert 6c29fad354bd775ce52d5883b808f9057d42e99c ##so i moved to this commit 
 <img width="1944" height="1098" alt="image" src="https://github.com/user-attachments/assets/337ffdf4-ae89-42eb-9bbd-1c7dcdb12c46" />
 
 repository_Disaptch :https://www.anantacloud.com/post/github-repository-dispatch-event-for-custom-triggers
+
+
+
+
+<img width="1900" height="1144" alt="image" src="https://github.com/user-attachments/assets/7dac888b-7fbb-4b3c-a52e-b36b60271977" />
+
