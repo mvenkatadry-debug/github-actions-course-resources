@@ -83,3 +83,8 @@ Date:   Tue Jul 28 14:01:57 2026 -0600
 
 
 git revert 6c29fad354bd775ce52d5883b808f9057d42e99c ##so i moved to this commit where the file is only empty.so what ever commit u have to go  u have to give this
+
+
+
+
+<img width="1802" height="1096" alt="image" src="https://github.com/user-attachments/assets/0936cde5-ea28-4543-853d-3d407403b4f1" />
