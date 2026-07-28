@@ -32,3 +32,28 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/mvenkatadry-debug/firstrepo.git
 git push -u origin main
+
+
+
+###
+git checkout is only temporary move. these commit moves cannot be reflected in main branch
+Exactly. ✅ You're getting the core Git concept now.
+When you run:
+git checkout cc6bdd9
+
+Git moves only HEAD to that commit.
+Before:
+HEAD -> main -> 6c29fad
+
+After:
+HEAD -> cc6bdd9
+main -> 6c29fad
+
+Notice that main did not move.
+That's why Git said:
+HEAD detached at cc6bdd9
+
+You're just viewing an old snapshot of the repository.
+###
+
+
