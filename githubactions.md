@@ -172,3 +172,15 @@ and Developer B accidentally gets a different compatible version, builds can beh
 Rule of thumb:
 	•	During development: npm install
 ###
+
+The flow is:
+1. actions/checkout → downloads the source code.
+2. npm ci → installs all required packages.
+3. npm test → runs the tests using those installed packages.
+Files you'll commonly see
+
+
+
+<img width="1622" height="558" alt="image" src="https://github.com/user-attachments/assets/88655390-0607-4dd3-b3f8-47255815eb1b" />
+
+###
