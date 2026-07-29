@@ -108,3 +108,67 @@ I meant for any Node.js/JavaScript project that uses npm.
 
 
 uses keyword when u want to use action
+
+
+
+
+
+
+###
+What happens when you run npm ci?
+Suppose your project contains:
+// package.json
+{
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
+// package-lock.json
+{
+  "dependencies": {
+    "express": {
+      "version": "4.21.2"
+    }
+  }
+}
+When you run:
+npm ci
+npm:
+	1	Deletes the existing node_modules folder (if present). 12
+	2	Reads package-lock.json. 13
+	3	Installs the exact versions from the lock file. 13
+	4	Does not modify package.json or package-lock.json. 12
+Why use it in GitHub Actions?
+Typical workflow:
+steps:
+  - uses: actions/checkout@v4
+
+  - uses: actions/setup-node@v4
+    with:
+      node-version: 20
+
+  - run: npm ci
+
+  - run: npm test
+This ensures every build uses the same dependency versions, making builds reproducible and reliable. 13
+npm ci vs npm install
+npm ci
+npm install
+Requires package-lock.json
+Can work without lock file
+Installs exact locked versions
+May update lock file
+Removes node_modules first
+Reuses existing modules
+Fails if lock file and package.json differ
+May update lock file to resolve differences
+Best for CI/CD
+Best for local development
+13
+Why do pipelines use npm ci?
+Because if Developer A has:
+lodash 4.17.21
+and Developer B accidentally gets a different compatible version, builds can behave differently. npm ci forces everyone—including build agents—to use the exact versions recorded in package-lock.json. 13
+Rule of thumb:
+	•	During development: npm install
+###
