@@ -181,6 +181,14 @@ Files you'll commonly see
 
 
 
+##
+GitHub Actions includes a collection of variables called contexts and a similar collection of variables called default variables. These variables are intended for use at different points in the workflow:
+https://docs.github.com/en/actions/reference/workflows-and-actions/contexts
+
+##
+
+
+
 <img width="1622" height="558" alt="image" src="https://github.com/user-attachments/assets/88655390-0607-4dd3-b3f8-47255815eb1b" />
 
 ###
