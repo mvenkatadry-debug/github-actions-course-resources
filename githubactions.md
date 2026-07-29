@@ -186,6 +186,8 @@ GitHub Actions includes a collection of variables called contexts and a similar 
 https://docs.github.com/en/actions/reference/workflows-and-actions/contexts
 
 ##
+https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request
+By default, a workflow only runs when a pull_request event's activity type is opened, synchronize, or reopened. To trigger workflows by different activity types, use the types keyword. For more information, see Workflow syntax for GitHub Actions.
 
 
 
