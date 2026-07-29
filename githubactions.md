@@ -195,3 +195,8 @@ By default, a workflow only runs when a pull_request event's activity type is op
 
 ###
 expressions https://docs.github.com/en/actions/concepts/workflows-and-actions/expressions
+
+##
+skioping workflows
+https://docs.github.com/en/actions/how-tos/manage-workflow-runs/skip-workflow-runs
+###
