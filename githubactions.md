@@ -101,3 +101,5 @@ repository_Disaptch :https://www.anantacloud.com/post/github-repository-dispatch
 
 <img width="1900" height="1144" alt="image" src="https://github.com/user-attachments/assets/7dac888b-7fbb-4b3c-a52e-b36b60271977" />
 
+In fact, you need Node.js and npm already installed before you can run
+
